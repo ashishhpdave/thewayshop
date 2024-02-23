@@ -8,10 +8,8 @@ function Header({page}){
         <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div className="container">
                 <div className="navbar-header">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fa fa-bars"></i>
-                </button>
-                    <NavLink className="navbar-brand" href="index.html"><img src="images/logo.png" className="logo" alt=""/></NavLink>
+                    
+                <NavLink className="navbar-brand" href="index.html"><img src="images/logo.png" className="logo" alt=""/></NavLink>
                 </div>
 
                 <div className="collapse navbar-collapse" id="navbar-menu">
@@ -21,15 +19,13 @@ function Header({page}){
                         </li>
                         <li className="nav-item"><NavLink className="nav-link" href="about.html">About Us</NavLink></li>
                         <li className="dropdown megamenu-fw">
-                            <NavLink href="#" className="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</NavLink>
+                            <NavLink href="#" className="nav-link" data-toggle="dropdown">Product</NavLink>
                          
                         </li>
-                        <li className="dropdown">
-                            <NavLink href="#" className="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</NavLink>
-                            <ul className="dropdown-menu">
-                                <li><NavLink href="cart.html">Cart</NavLink></li>
-                            </ul>
+                        <li className="nav-item">
+                            <NavLink href="#" className="nav-link" data-toggle="dropdown">SHOP</NavLink>
                         </li>
+                                <li className="nav-item"><NavLink className="nav-link" href="cart.html">Cart</NavLink></li>
                         <li className="nav-item"><NavLink className="nav-link" href="service.html">Our Service</NavLink></li>
                         <li className="nav-item"><NavLink className="nav-link" href="contact-us.html">Contact Us</NavLink></li>
                     </ul>
