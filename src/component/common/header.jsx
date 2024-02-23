@@ -28,21 +28,17 @@ function Header({page}){
                                 <li className="nav-item"><NavLink className="nav-link" href="cart.html">Cart</NavLink></li>
                         <li className="nav-item"><NavLink className="nav-link" href="service.html">Our Service</NavLink></li>
                         <li className="nav-item"><NavLink className="nav-link" href="contact-us.html">Contact Us</NavLink></li>
+                        <li className="search"><NavLink href="#"><i className=""><IoSearchSharp /></i></NavLink></li>
+                <NavLink href="#" className="close-side"><i className=""><FaShoppingBag /></i></NavLink>
                     </ul>
                 </div>
 
-                <div className="attr-nav">
+                <div className="attr-nav"> 
                     <ul>
-                        <li className="search"><NavLink href="#"><i className="fa fa-search"><IoSearchSharp /></i></NavLink></li>
-                        <li className="side-menu"><NavLink href="#">
-						<i className="fa fa-shopping-bag"></i>
-                            <span className="badge">3</span>
-					</NavLink></li>
                     </ul>
                 </div>
             </div>
             <div className="side">
-                <NavLink href="#" className="close-side"><i className="fa fa-times"><FaShoppingBag /></i></NavLink>
             </div>
         </nav>
     </header>
