@@ -5181,6 +5181,7 @@ ul.cart-list>li.total>.btn {
 
     nav.navbar .navbar-brand img.logo {
         width: 160px;
+        /* display: flex;  */
     }
 
     .attr-nav>ul>li>a {
@@ -5587,6 +5588,7 @@ ul.cart-list>li.total>.btn:hover {
 /*------------------------------------------------------------------ Slider -------------------------------------------------------------------*/
 .cover-slides {
     height: 100vh;
+    margin-top: 120px;
 }
 
 .slides-navigation a {
@@ -5611,6 +5613,20 @@ ul.cart-list>li.total>.btn:hover {
     background: #010101;
 }
 
+.heroImage{
+    width: 100%;
+    height: 100%;
+    filter: blur(0); /* Initially no blur */
+     transition: filter 0.8s ease; 
+}
+.heroImage:hover{
+    cursor: pointer;
+    filter: blur(5px); /* Apply blur on hover */
+    transition: 1s;
+    filter: brightness(50%) contrast(150%);
+
+}
+
 .cover-slides .container {
     height: 100%;
     width: 100%;
@@ -5626,8 +5642,20 @@ ul.cart-list>li.total>.btn:hover {
 
 .cover-slides .container>.row {
     height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.heroText{
+    width: 400px;
+    height: 340px;
+    margin-top: -400px;
+    position: absolute;
+    z-index: 100;
+   /* border: 1px solid red; */
+    
+}
 .overlay-background {
     background: #333;
     position: absolute;
@@ -5640,8 +5668,8 @@ ul.cart-list>li.total>.btn:hover {
 
 .cover-slides h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 64px;
+    font-weight: 400;
+    font-size: 54px;
     color: #fff;
 }
 
@@ -5650,6 +5678,7 @@ ul.cart-list>li.total>.btn:hover {
     color: #fff;
     padding-bottom: 30px;
 }
+
 
 .slides-pagination a {
     border: 2px solid #ffffff;
@@ -5673,14 +5702,24 @@ ul.cart-list>li.total>.btn:hover {
     padding: 70px 0px;
 }
 
+.BoxxesRow{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
 .shop-cat-box {
     margin-bottom: 30px;
+    width: 350px;
+    height: 350px;
     position: relative;
     padding: 3px;
     overflow: hidden;
     border: 1px solid #010101;
     -webkit-transition: background 0.4s 0.5s;
     transition: background 0.4s 0.5s;
+ 
 }
 
 .shop-cat-box img {
