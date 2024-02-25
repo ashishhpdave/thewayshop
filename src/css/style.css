@@ -5766,19 +5766,30 @@ ul.cart-list>li.total>.btn:hover {
     font-size: 32px;
     font-weight: 700;
     color: #010101;
+    margin-left: 500px;
+
 }
 
 .title-all p {
     color: #999999;
     font-size: 16px;
+    margin-left: 350px;
 }
 
 .products-box {
+    /* border: 1px solid red; */
+ 
     padding: 70px 0px;
 }
 
 .special-menu {
     margin-bottom: 40px;
+    margin-left: 450px;
+}
+
+.special-grid{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .filter-button-group {
@@ -5804,6 +5815,8 @@ ul.cart-list>li.total>.btn:hover {
     overflow: hidden;
     position: relative;
     margin-bottom: 30px;
+    width: 300px;
+    height: 450px;
 }
 
 .products-single .box-img-hover {

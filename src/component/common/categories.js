@@ -15,15 +15,15 @@ const CetpgryMainData = [
     },
     {
         img: "images/wallete-img.png",
-        a: "T-shirt"
+        a: "Wallte"
     },
     {
         img: "images/beg-img.png",
-        a: "Shirt"
+        a: "Beg"
     },
     {
         img: "images/women-shoses-img.png",
-        a: "Shoses"
+        a: "Women-Shoses"
     },
 ]
 
