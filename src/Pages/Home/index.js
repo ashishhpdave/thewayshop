@@ -3,6 +3,7 @@ import CategoriesShop from "../../component/common/categories"
 import FeatureProduct from "../../component/common/featureProduct"
 import Header from "../../component/common/header"
 import HeroSecion from "../../component/common/hero"
+import InstagramBox from "../../component/common/instagramBox"
 import TopMain from "../../component/common/topMian"
 
 function HomePage(){
@@ -16,6 +17,7 @@ function HomePage(){
         <CategoriesShop /> 
         <FeatureProduct />
         <LatestBlog />
+        <InstagramBox />
         </>
     )
 }

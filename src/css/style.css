@@ -6128,6 +6128,8 @@ ul.cart-list>li.total>.btn:hover {
 /*------------------------------------------------------------------ Instagram Feed -------------------------------------------------------------------*/
 .instagram-box {
     padding: 70px 0px;
+    width: 100%;
+    height: 200px;
     background: url(/public/images/ins-bg.jpg) no-repeat center center;
     background-size: auto auto;
     -webkit-background-size: cover;
@@ -6196,8 +6198,19 @@ ul.cart-list>li.total>.btn:hover {
     background: #d33b33;
 }
 
+.main-instagram {
+    display: flex;
+    justify-content: space-evenly;
+}
 .ins-inner-box {
+    width: 170px;
+    height: 170px;
     position: relative;
+}
+.instaGramImages{
+    width: 170px;
+    height: 170px;
+
 }
 
 .hov-in {
