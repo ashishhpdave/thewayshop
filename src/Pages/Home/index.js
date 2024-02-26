@@ -1,3 +1,4 @@
+import LatestBlog from "../../component/common/blog"
 import CategoriesShop from "../../component/common/categories"
 import FeatureProduct from "../../component/common/featureProduct"
 import Header from "../../component/common/header"
@@ -14,6 +15,7 @@ function HomePage(){
         <HeroSecion />    
         <CategoriesShop /> 
         <FeatureProduct />
+        <LatestBlog />
         </>
     )
 }

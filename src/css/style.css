@@ -6039,11 +6039,26 @@ ul.cart-list>li.total>.btn:hover {
     background: #f5f5f5;
 }
 
+
+.BlogMain{
+    width: 350px;
+    height: 300px;
+    margin-left: 90px;
+    gap: 50px;
+    display: flex;
+
+
+}
+.BlogImage{
+    width: 350px;
+    height: 300px;
+}
 .blog-box {
     -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
     box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
     background: #ffffff;
     margin-bottom: 30px;
+    /* border: 1px solid red; */
 }
 
 .blog-content {
