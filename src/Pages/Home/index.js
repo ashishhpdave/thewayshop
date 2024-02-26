@@ -1,3 +1,4 @@
+import Footer from "../../component/common/Footer"
 import LatestBlog from "../../component/common/blog"
 import CategoriesShop from "../../component/common/categories"
 import FeatureProduct from "../../component/common/featureProduct"
@@ -18,6 +19,7 @@ function HomePage(){
         <FeatureProduct />
         <LatestBlog />
         <InstagramBox />
+        <Footer />
         </>
     )
 }
