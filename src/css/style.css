@@ -7067,6 +7067,18 @@ ul.cart-list>li.total>.btn:hover {
 .cart-box-main {
     padding: 70px 0px;
 }
+.table{
+    width: 75%;
+    height: 400px;
+    margin: auto;
+}
+
+.table-main{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border: 1px solid red;
+}
 
 .table-main table thead {
     background: #d33b33;
@@ -7077,6 +7089,7 @@ ul.cart-list>li.total>.btn:hover {
     font-size: 18px;
 }
 
+
 .table-main table td.thumbnail-img {
     width: 120px;
 }
@@ -7084,11 +7097,11 @@ ul.cart-list>li.total>.btn:hover {
 .table-main table td {
     vertical-align: middle;
     font-size: 16px;
-}
+} 
 
 .quantity-box input {
     width: 60px;
-    border: 2px solid #010101;
+    border: 1px solid #010101;
     text-align: center;
 }
 
@@ -7096,7 +7109,7 @@ ul.cart-list>li.total>.btn:hover {
     border-color: #d33b33;
 }
 
-.name-pr a {
+.name-pr {
     font-weight: 700;
     font-size: 18px;
     color: #010101;
@@ -7105,13 +7118,20 @@ ul.cart-list>li.total>.btn:hover {
 .remove-pr {
     text-align: center;
 }
-
+.coupon-box .input-group {
+    display: flex;
+    margin-top: 20px;
+}
 .coupon-box .input-group .form-control {
+    margin-top: 80px;
+    width: 500px;
     min-height: 50px;
     border-radius: 0px;
     font-weight: 400;
     border: 1px solid #e8e8e8;
     box-shadow: none !important;
+
+  
 }
 
 .coupon-box .input-group .form-control::-moz-placeholder {
@@ -7119,9 +7139,14 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .coupon-box .input-group .input-group-append .btn-theme {
+    width: 150px;
+    height: 52px;
+    align-items: center;
+    
     background: #010101;
     color: #ffffff;
     border: none;
+    margin-top: 80px;
     border-radius: 0px;
     font-size: 16px;
     padding: 0px 20px;
@@ -7132,6 +7157,7 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .update-box input[type="submit"] {
+    margin-top: -49px;
     background: #010101;
     border: medium none;
     border-radius: 0;
