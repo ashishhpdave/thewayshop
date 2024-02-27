@@ -7125,6 +7125,7 @@ ul.cart-list>li.total>.btn:hover {
 .coupon-box .input-group .form-control {
     margin-top: 80px;
     width: 500px;
+    margin-left: 70px;
     min-height: 50px;
     border-radius: 0px;
     font-weight: 400;
@@ -7181,6 +7182,46 @@ ul.cart-list>li.total>.btn:hover {
     width: inherit;
 }
 
+.order-summary {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-left: 900px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item-label {
+    font-weight: bold;
+}
+
+.order-total {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.total-value {
+    font-weight: bold;
+    color: #007bff;
+}
+
 .update-box input[type="submit"]:hover {
     background: #d33b33;
 }
@@ -7200,6 +7241,7 @@ ul.cart-list>li.total>.btn:hover {
 .order-box .font-weight-bold {
     font-size: 18px;
 }
+
 
 .gr-total h5 {
     font-weight: 700;
@@ -7221,6 +7263,7 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .shopping-box a {
+    margin-left: 280px;
     font-size: 18px;
     color: #ffffff;
     border: none;
