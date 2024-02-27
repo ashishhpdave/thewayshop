@@ -6428,6 +6428,7 @@ ul.cart-list>li.total>.btn:hover {
     background-attachment: fixed;
     padding: 70px 0px;
     position: relative;
+    margin-top: 110px;
 }
 
 .all-title-box::before {
@@ -6458,6 +6459,7 @@ ul.cart-list>li.total>.btn:hover {
 .all-title-box .breadcrumb li {
     display: inline-block;
     color: #010101;
+    padding:15px;
     font-size: 16px;
 }
 

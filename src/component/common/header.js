@@ -17,10 +17,12 @@ function Header({page}){
                         <li className={page === 'Home' ? 'nav-item active' : 'nav-item'}>
                             <NavLink className="nav-link" to="/">Home</NavLink>
                         </li>
-                        <li className="nav-item"><NavLink className="nav-link" href="about.html">About Us</NavLink></li>
+                        <li className={page === 'about' ? 'nav-item active' : 'nav-item'}>
+                            <NavLink className="nav-link" to="/about">About Us</NavLink>  
+                        </li>
+
                         <li className="dropdown megamenu-fw">
                             <NavLink href="#" className="nav-link" data-toggle="dropdown">Product</NavLink>
-                         
                         </li>
                         <li className="nav-item">
                             <NavLink href="#" className="nav-link" data-toggle="dropdown">SHOP</NavLink>
