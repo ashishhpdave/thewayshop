@@ -21,8 +21,8 @@ function Header({page}){
                             <NavLink className="nav-link" to="/about">About Us</NavLink>  
                         </li>
 
-                        <li className="dropdown megamenu-fw">
-                            <NavLink href="#" className="nav-link" data-toggle="dropdown">Product</NavLink>
+                        <li className={page === 'product' ? 'nav-item active' : 'nav-item'}>
+                            <NavLink className="nav-link" to="/product">Product</NavLink>  
                         </li>
                         <li className="nav-item">
                             <NavLink href="#" className="nav-link" data-toggle="dropdown">SHOP</NavLink>
