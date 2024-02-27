@@ -6429,6 +6429,15 @@ ul.cart-list>li.total>.btn:hover {
     margin-left: 50px;
 }
 
+.aboutTristedRow{
+    width: 85%;
+    margin-top: 140px;
+    margin-left: 120px;
+    gap: 50px;
+    display: flex;
+    height: 120px;
+}
+
 .img-thumbnail{
     height: 480px;
     width: 500px;
