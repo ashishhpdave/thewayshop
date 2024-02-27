@@ -6503,8 +6503,16 @@ ul.cart-list>li.total>.btn:hover {
     padding: 70px 0px;
 }
 
+.ourTeamRow{
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
 .noo-sh-title {
     font-size: 28px;
+    margin-left: 50px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 700;
@@ -6562,6 +6570,8 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .our-team {
+    width: 250px;
+    /* margin: 30px; */
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
     overflow: hidden;
     position: relative;
@@ -6573,8 +6583,9 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .our-team img {
-    width: 100%;
-    height: auto;
+   
+    width: 250px;
+    height: 300px;
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -6660,8 +6671,14 @@ ul.cart-list>li.total>.btn:hover {
     position: absolute;
     bottom: 0;
 }
+.ourTeamMainRow{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .team-description {
+    /* margin: 30px; */
+    width: 300px;
     padding: 20px 0px;
 }
 

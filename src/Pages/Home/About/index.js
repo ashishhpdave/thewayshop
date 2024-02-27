@@ -2,6 +2,7 @@ import AboutMiddleRow from "../../../component/aboutmiddle"
 import AboutTrustedRow from "../../../component/common/aboutTrustedRow"
 import AboutHero from "../../../component/common/abouthero"
 import Header from "../../../component/common/header"
+import OurTeam from "../../../component/common/ourTeam"
 import TopMain from "../../../component/common/topMian"
 
 function AboutPage(){
@@ -14,6 +15,7 @@ function AboutPage(){
             <AboutHero title="About Us"/>
             <AboutMiddleRow />
             <AboutTrustedRow />
+            <OurTeam />
         </>
     )
 }
