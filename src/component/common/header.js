@@ -31,7 +31,10 @@ function Header({page}){
                             <NavLink className="nav-link" to="/ourservise">OurServise</NavLink>  
                         </li>
 
-                       <li className="nav-item"><NavLink className="nav-link" href="contact-us.html">Contact Us</NavLink></li>
+                        <li className={page === 'contact' ? 'nav-item active' : 'nav-item'}>
+                            <NavLink className="nav-link" to="/contact">ContactUs</NavLink>  
+                        </li>
+
                         <li className="search"><NavLink href="#"><i className=""><IoSearchSharp /></i></NavLink></li>
                 <NavLink href="#" className="close-side"><i className=""><FaShoppingBag /></i></NavLink>
                     </ul>
