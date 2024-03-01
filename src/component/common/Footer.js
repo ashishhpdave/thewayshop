@@ -3,95 +3,58 @@ import { NavLink } from "react-router-dom"
 function Footer() {
     return (
         <>
-            <footer className="footer">
-                <div className="footer__addr">
-                    <h1 className="footer__logo"><img src="images/logo.png" className="logo" alt=""/></h1>
-
-                    <h2>Contact</h2>
-
-                    <address>
-                        5534 Somewhere In. The World 22193-10212<br/>
-
-                            <NavLink className="footer__btn" href="mailto:example@gmail.com">Email Us</NavLink>
-                    </address>
-                </div>
-
-                <ul className="footer__nav">
-                    <li className="nav__item">
-                        <h2 className="nav__title">Media</h2>
-
-                        <ul className="nav__ul">
-                            <li>
-                                <NavLink href="#">Online</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Print</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Alternative Ads</NavLink>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li className="nav__item nav__item--extra">
-                        <h2 className="nav__title">Technology</h2>
-
-                        <ul className="nav__ul nav__ul--extra">
-                            <li>
-                                <NavLink href="#">Hardware Design</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Software Design</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Digital Signage</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Automation</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Artificial Intelligence</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">IoT</NavLink>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li className="nav__item">
-                        <h2 className="nav__title">Legal</h2>
-
-                        <ul className="nav__ul">
-                            <li>
-                                <NavLink href="#">Privacy Policy</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Terms of Use</NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink href="#">Sitemap</NavLink>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <div className="legal">
-                    <p>&copy; 2024 Something. All rights reserved.</p>
-
-                    <div className="legal__links">
-                        <span>Made with <NavLink className="heart" to="https://github.com/ashishhpdave/">ashishhpdave</NavLink> remotely from Anywhere</span>
+                 <footer>
+            <div className="footer-main">
+                <div className="container">
+                    <div className="footerRow">
+                        <div className="mainFooter">
+                            <div className="footer-widget">
+                                <h4>About ThewayShop</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <ul>
+                                    <li><NavLink href="#"><i className="fab fa-facebook" aria-hidden="true"></i></NavLink></li>
+                                    <li><NavLink href="#"><i className="fab fa-twitter" aria-hidden="true"></i></NavLink></li>
+                                    <li><NavLink href="#"><i className="fab fa-linkedin" aria-hidden="true"></i></NavLink></li>
+                                    <li><NavLink href="#"><i className="fab fa-google-plus" aria-hidden="true"></i></NavLink></li>
+                                    <li><NavLink href="#"><i className="fa fa-rss" aria-hidden="true"></i></NavLink></li>
+                                    <li><NavLink href="#"><i className="fab fa-pinterest-p" aria-hidden="true"></i></NavLink></li>
+                                    <li><NavLink href="#"><i className="fab fa-whatsapp" aria-hidden="true"></i></NavLink></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="mainFooter">
+                            <div className="footer-link">
+                                <h4>Information</h4>
+                                <ul>
+                                    <li><NavLink href="#">About Us</NavLink></li>
+                                    <li><NavLink href="#">Customer Service</NavLink></li>
+                                    <li><NavLink href="#">Our Sitemap</NavLink></li>
+                                    <li><NavLink href="#">Terms &amp; Conditions</NavLink></li>
+                                    <li><NavLink href="#">Privacy Policy</NavLink></li>
+                                    <li><NavLink href="#">Delivery Information</NavLink></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="mainFooter">
+                            <div className="footer-link-contact">
+                                <h4>Contact Us</h4>
+                                <ul>
+                                    <li>
+                                        <p><i className="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br />Preston Street Wichita,<br /> KS 67213 </p>
+                                    </li>
+                                    <li>
+                                        <p><i className="fas fa-phone-square"></i>Phone: <NavLink href="tel:+1-888705770">+1-888 705 770</NavLink></p>
+                                    </li>
+                                    <li>
+                                        <p><i className="fas fa-envelope"></i>Email: <NavLink href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</NavLink></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </footer>
+            </div>
+        </footer>
         </>
     )
 }

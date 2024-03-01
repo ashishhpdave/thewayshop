@@ -28,7 +28,7 @@ function Header({page}){
                             <NavLink className="nav-link" to="/cart">Cart</NavLink>  
                         </li>
                         <li className={page === 'ourservise' ? 'nav-item active' : 'nav-item'}>
-                            <NavLink className="nav-link" to="/ourservise">Our Servise</NavLink>  
+                            <NavLink className="nav-link" to="/ourservise">OurServise</NavLink>  
                         </li>
 
                        <li className="nav-item"><NavLink className="nav-link" href="contact-us.html">Contact Us</NavLink></li>
