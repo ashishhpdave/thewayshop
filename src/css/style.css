@@ -7557,7 +7557,16 @@ h2 {
 .services-box-main {
     padding: 70px 0px;
 }
-
+.ContactRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ContactInfoMain{
+    width: 400px;
+}
+.getInTouchMain{
+    width: 600px;
+}
 .contact-box-main {
     padding: 70px 0px;
 }
@@ -7629,8 +7638,9 @@ h2 {
     position: relative;
 }
 
-.contact-form-right .form-group .form-control:focus {
-    border: 1px solid #d33b33;
+.contact-form-right .form-group .form-control {
+    /* border: 1px solid #d33b33; */
+    width: 580px;
     box-shadow: none;
 }
 

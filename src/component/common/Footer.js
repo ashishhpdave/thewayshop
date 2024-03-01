@@ -40,13 +40,16 @@ function Footer() {
                                 <h4>Contact Us</h4>
                                 <ul>
                                     <li>
-                                        <p><i className="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br />Preston Street Wichita,<br /> KS 67213 </p>
+                                        <p><i className="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br />India Rajasthan "jalor",<br /></p>
                                     </li>
                                     <li>
                                         <p><i className="fas fa-phone-square"></i>Phone: <NavLink href="tel:+1-888705770">+1-888 705 770</NavLink></p>
                                     </li>
                                     <li>
-                                        <p><i className="fas fa-envelope"></i>Email: <NavLink href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</NavLink></p>
+                                        <p><i className="fas fa-envelope"></i>Email: <NavLink href="mailto:contactinfo@gmail.com">youreamil@gmail.com</NavLink></p>
+                                    </li>
+                                    <li>
+                                        <p><i className="fas fa-envelope"></i>All  Reserved. © 2024 ThewayShop Design By : <NavLink href="https://github.com/ashishhpdave">ashishhpdave</NavLink></p>
                                     </li>
                                 </ul>
                             </div>
