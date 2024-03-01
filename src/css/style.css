@@ -7077,7 +7077,7 @@ ul.cart-list>li.total>.btn:hover {
     width: 100%;
     height: auto;
     margin-top: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .table-main table thead {

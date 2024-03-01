@@ -27,9 +27,11 @@ function Header({page}){
                         <li className={page === 'cart' ? 'nav-item active' : 'nav-item'}>
                             <NavLink className="nav-link" to="/cart">Cart</NavLink>  
                         </li>
-                       
-                        <li className="nav-item"><NavLink className="nav-link" href="service.html">Our Service</NavLink></li>
-                        <li className="nav-item"><NavLink className="nav-link" href="contact-us.html">Contact Us</NavLink></li>
+                        <li className={page === 'ourservise' ? 'nav-item active' : 'nav-item'}>
+                            <NavLink className="nav-link" to="/ourservise">Our Servise</NavLink>  
+                        </li>
+
+                       <li className="nav-item"><NavLink className="nav-link" href="contact-us.html">Contact Us</NavLink></li>
                         <li className="search"><NavLink href="#"><i className=""><IoSearchSharp /></i></NavLink></li>
                 <NavLink href="#" className="close-side"><i className=""><FaShoppingBag /></i></NavLink>
                     </ul>
