@@ -31,19 +31,19 @@ function ContactUs() {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <div className="form-group">
-                                                <input type="text" className="form-control" id="name" name="name"  placeholder="Your Name" required data-error="Please enter your name" />
+                                                <input type="text" className="form-control" id="name" name="name"  placeholder="Name" required data-error="Please enter your name" />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group">
-                                                <input type="text" placeholder="Your Email" id="email" className="form-control" name="name" required data-error="Please enter your email" />
+                                                <input type="text" placeholder="Email" id="email" className="form-control" name="name" required data-error="Please enter your email" />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group">
-                                                <input type="text" className="form-control" id="subject" name="name" placeholder="Subject" required data-error="Please enter your Subject" />
+                                                <input type="password" className="form-control" id="subject" name="password" placeholder="password" required data-error="Please enter your password" />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </div>
